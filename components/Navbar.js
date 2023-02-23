@@ -7,21 +7,21 @@ const Navbar = () => {
         <div className={styles.container}>
 
           
-                <Link href="#" className={styles.logo}>Mypages.</Link>
+                <Link href="/" className={styles.logo}>MyFitness.</Link>
             
 
             <ul className={styles.menu}>
                 <li>
-                    <Link href="#" className={styles.linkItem}>Tshirt</Link>
+                    <Link href="/classes" className={styles.linkItem}>Classes</Link>
                 </li>
                 <li>
-                    <Link href="#" className={styles.linkItem}>Pants</Link>
+                    <Link href="/team" className={styles.linkItem}>Team</Link>
                 </li>
                 <li>
                     <Link href="/pricing" className={styles.linkItem}>Pricing</Link>
                 </li>
                 <li>
-                    <Link href="#" className={styles.linkItem}>Mode</Link>
+                    <Link href="contact" className={styles.linkItem}>Contact</Link>
                 </li>
             </ul>
 

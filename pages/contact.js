@@ -1,15 +1,15 @@
 import Layout from '@/components/Layout'
 import React from 'react'
 
-const team = () => {
+const contact = () => {
   return (
 
     <Layout>
 
-         <div>team</div>
+         <div>contact</div>
     </Layout>
    
   )
 }
 
-export default team
+export default contact

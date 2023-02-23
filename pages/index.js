@@ -23,6 +23,7 @@ export default function Home() {
 
       <>
       <Layout >
+        <Slider />
         <h1>welcome to myPages</h1>
        </Layout>
       </>
