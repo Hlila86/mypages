@@ -6,29 +6,28 @@ const Navbar = () => {
     return (
         <div className={styles.container}>
 
-            <div className={styles.logo}>
-
-                <Link href="#">Mypages.</Link>
-            </div>
+          
+                <Link href="#" className={styles.logo}>Mypages.</Link>
+            
 
             <ul className={styles.menu}>
                 <li>
-                    <Link href="#">Tshirt</Link>
+                    <Link href="#" className={styles.linkItem}>Tshirt</Link>
                 </li>
                 <li>
-                    <Link href="#">Pants</Link>
+                    <Link href="#" className={styles.linkItem}>Pants</Link>
                 </li>
                 <li>
-                    <Link href="#">Kids</Link>
+                    <Link href="/pricing" className={styles.linkItem}>Pricing</Link>
                 </li>
                 <li>
-                    <Link href="#">Mode</Link>
+                    <Link href="#" className={styles.linkItem}>Mode</Link>
                 </li>
             </ul>
 
             <div>
-                <Link href="#">Login</Link>
-                <Link href="#">Signup</Link>
+                <Link href="#" className={styles.linkItem}>Login</Link>
+                <Link href="#" className={styles.linkItem}>Signup</Link>
 
 
             </div>

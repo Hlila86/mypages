@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from '@/components/Slider'
+import Layout from '@/components/Layout'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,10 +22,9 @@ export default function Home() {
       </Head>
 
       <>
-      <Navbar />
-      <Slider />
+      <Layout >
         <h1>welcome to myPages</h1>
-        <Footer />
+       </Layout>
       </>
     </>
   )

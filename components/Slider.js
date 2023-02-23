@@ -14,9 +14,11 @@ const Slider = () => {
         src="/img/slider1.jpg"
         alt="First slide"
       />
-      <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <Carousel.Caption className={styles.caption}>
+        <h3 className={styles.captionTitle}>First slide label</h3>
+        <p>REAL PEOPLE
+HELP YOU MAKE
+REAL PROGRESS..</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item className={styles.item}>
@@ -26,8 +28,8 @@ const Slider = () => {
         alt="Second slide"
       />
 
-      <Carousel.Caption>
-        <h3>Second slide label</h3>
+      <Carousel.Caption className={styles.caption}>
+        <h3 className={styles.captionTitle}>Second slide label</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </Carousel.Caption>
     </Carousel.Item>
@@ -38,8 +40,8 @@ const Slider = () => {
         alt="Third slide"
       />
 
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
+      <Carousel.Caption className={styles.caption}>
+        <h3 className={styles.captionTitle}>Third slide label</h3>
         <p>
           Praesent commodo cursus magna, vel scelerisque nisl consectetur.
         </p>

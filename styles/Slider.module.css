@@ -11,3 +11,12 @@
     height: 700px;
     object-fit: cover;
 }
+
+.caption{
+    font-size: 32px;
+}
+
+.captionTitle{
+    font-size: 60px;
+    color: rgb(231, 192, 192);
+}
