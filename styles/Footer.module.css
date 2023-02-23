@@ -1,0 +1,33 @@
+.container {
+    background-color: #26272b;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 20px 50px;
+
+}
+
+.title {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.social {
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.facebook:hover {
+    color: rgb(60, 60, 207);
+}
