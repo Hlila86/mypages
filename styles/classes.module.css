@@ -2,20 +2,34 @@
     background-color: aquamarine;
     display: flex;
     justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    height: 100vh;
 }
 
 .card{
     width: 20%;
     height: auto;
     position: relative;
+    cursor: pointer;
 }
 
 .cardTitle{
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  
+    
 }
 
 .card img{
     width: 300px;
+    transition: 0.5s all ease-in-out;
+}
+
+
+.card img:hover{
+    transform: scale(1.1);
 }
